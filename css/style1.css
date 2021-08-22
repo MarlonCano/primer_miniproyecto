@@ -1,0 +1,75 @@
+body{
+    background-color: #000f0e00;
+}
+header{
+    text-align: right;
+}
+header, .alert{
+    z-index: 100;
+}
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s m4;
+}
+
+.description:hover{
+    height: 100px;
+}
+
+.carrito{
+    min-height: 70vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.table_producto{
+    display: flex;
+}
+.table_producto >img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.table_cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+}
+
+.hide, .remove{
+    display:none;
+
+}
+
+.menu{
+    list-style: none;
+    padding: 5;
+    background: #092327;
+    width: 100%;
+    margin:auto;
+    text-align: right;
+    color: white;
+}
+li a:hover{
+    background:tomato;
+    color: black;
+}
+
+.row2cols{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    color:black;
+}
+.conpedido{
+    color: black;
+    text-align: center;
+}
+
+
